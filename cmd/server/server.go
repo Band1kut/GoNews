@@ -5,6 +5,7 @@ import (
 	"GoNews/pkg/storage"
 	"GoNews/pkg/storage/memdb"
 	"GoNews/pkg/storage/mongo"
+	"GoNews/pkg/storage/postgres"
 	"log"
 	"net/http"
 )
