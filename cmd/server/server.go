@@ -32,7 +32,7 @@ func main() {
 	}
 
 	// Документная БД MongoDB.
-	db3, err := mongo.New("mongodb://localhost:27017") //mongodb://server.domain:27017/
+	db3, err := mongo.New("mongodb://server.domain:27017/")
 	if err != nil {
 		log.Fatal(err)
 	}
